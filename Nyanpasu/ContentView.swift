@@ -14,13 +14,26 @@ struct ContentView: View {
     @State var counter: Int = 0
 
     var body: some View {
-        Button(action: nyanpasu, label: {
-            Text("Nyanpasu!")
-        }).onAppear(perform: {
-            // Load data from Core Data
-        })
-        
-        Text("You have nyanpasu'd \(self.counter) time\(self.counter == 1 ? "" : "s")")
+        VStack {
+            Image("Renge")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            VStack {
+                Button(action: nyanpasu, label: {
+                    Text("Nyanpasu!")
+                }).onAppear(perform: {
+                    // Load data from Core Data
+                }).padding(7).overlay(RoundedRectangle(cornerRadius: 25)
+                                        .stroke(lineWidth: 2))
+                
+                Text("You have nyanpasu'd \(self.counter) time\(self.counter == 1 ? "" : "s")")
+            }.frame(height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            
+            Spacer()
+            
+            Text("にゃんぱす！").frame(alignment: .bottom)
+        }
     }
     
     private func nyanpasu() {

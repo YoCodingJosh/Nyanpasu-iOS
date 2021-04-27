@@ -13,6 +13,7 @@
 		02604C8525B2476D00BD62F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02604C8425B2476D00BD62F0 /* Preview Assets.xcassets */; };
 		02604C8725B2476D00BD62F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604C8625B2476D00BD62F0 /* Persistence.swift */; };
 		02604C8A25B2476D00BD62F0 /* Nyanpasu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02604C8825B2476D00BD62F0 /* Nyanpasu.xcdatamodeld */; };
+		02F0B80626388273009C89E2 /* Renge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02F0B80526388273009C89E2 /* Renge.jpeg */; };
 		0391CD9F25B3BD6600B2ABAF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0391CD9E25B3BD6500B2ABAF /* AVFoundation.framework */; };
 		0391CDA225B3C29A00B2ABAF /* nyanpasu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0391CDA125B3C29A00B2ABAF /* nyanpasu.wav */; };
 		0391CDB325B3D4D800B2ABAF /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391CDB225B3D4D800B2ABAF /* PlaySound.swift */; };
@@ -27,6 +28,7 @@
 		02604C8625B2476D00BD62F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		02604C8925B2476D00BD62F0 /* Nyanpasu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nyanpasu.xcdatamodel; sourceTree = "<group>"; };
 		02604C8B25B2476D00BD62F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F0B80526388273009C89E2 /* Renge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Renge.jpeg; sourceTree = "<group>"; };
 		0391CD9E25B3BD6500B2ABAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0391CDA125B3C29A00B2ABAF /* nyanpasu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nyanpasu.wav; sourceTree = "<group>"; };
 		0391CDB225B3D4D800B2ABAF /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		02604C7C25B2476C00BD62F0 /* Nyanpasu */ = {
 			isa = PBXGroup;
 			children = (
+				02F0B80526388273009C89E2 /* Renge.jpeg */,
 				0391CDA125B3C29A00B2ABAF /* nyanpasu.wav */,
 				03D9E25F25B3B2400053E811 /* Nyanpasu.entitlements */,
 				02604C7D25B2476C00BD62F0 /* NyanpasuApp.swift */,
@@ -155,6 +158,7 @@
 				0391CDA225B3C29A00B2ABAF /* nyanpasu.wav in Resources */,
 				02604C8525B2476D00BD62F0 /* Preview Assets.xcassets in Resources */,
 				02604C8225B2476D00BD62F0 /* Assets.xcassets in Resources */,
+				02F0B80626388273009C89E2 /* Renge.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +302,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Nyanpasu/Nyanpasu.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Nyanpasu/Preview\\ Content Nyanpasu/nyanpasu.wav";
+				DEVELOPMENT_ASSET_PATHS = "Nyanpasu/Preview\\ Content Nyanpasu/Renge.jpeg Nyanpasu/nyanpasu.wav";
 				DEVELOPMENT_TEAM = 46X82KAJHC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nyanpasu/Info.plist;
@@ -322,8 +327,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Nyanpasu/Nyanpasu.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Nyanpasu/Preview\\ Content Nyanpasu/nyanpasu.wav";
+				DEVELOPMENT_ASSET_PATHS = "Nyanpasu/Preview\\ Content Nyanpasu/Renge.jpeg Nyanpasu/nyanpasu.wav";
 				DEVELOPMENT_TEAM = 46X82KAJHC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nyanpasu/Info.plist;
